@@ -25785,7 +25785,7 @@ while(true)switch(s){case 0:p=t.N
 o=t.z
 n=A
 s=3
-return A.H(A.atC(A.at9("https://create-cfnliked3q-de.a.run.app/",B.hO)).HS(0,"pokemons",A.avi(A.aE(["Accept","application/json","Access-Control-Allow-Origin",!0,"Origin","http://localhost:8080"],p,o)),A.aE(["name",a],p,o),o),$async$Xp)
+return A.H(A.atC(A.at9("https://update-cfnliked3q-de.a.run.app/",B.hO)).HS(0,"pokemons",A.avi(A.aE(["Accept","application/json","Access-Control-Allow-Origin","*"],p,o)),A.aE(["name",a],p,o),o),$async$Xp)
 case 3:q=n.aHA(c.a)
 s=1
 break
@@ -25793,12 +25793,12 @@ case 1:return A.K(q,r)}})
 return A.L($async$Xp,r)},
 FR(a){var s=0,r=A.M(t.z),q,p,o,n,m
 var $async$FR=A.I(function(b,c){if(b===1)return A.J(c,r)
-while(true)switch(s){case 0:p=A.atC(A.at9("https://create-cfnliked3q-de.a.run.app/",B.hO))
+while(true)switch(s){case 0:p=A.atC(A.at9("https://update-cfnliked3q-de.a.run.app/",B.hO))
 o=t.N
 n=t.z
 m=A.aE(["offset",a],o,n)
 s=3
-return A.H(p.HS(0,"getlist",A.avi(A.aE(["Accept","application/json","Access-Control-Allow-Origin",!0,"Origin","http://localhost:8080"],o,n)),m,n),$async$FR)
+return A.H(p.HS(0,"getlist",A.avi(A.aE(["Accept","application/json","Access-Control-Allow-Origin","*"],o,n)),m,n),$async$FR)
 case 3:q=c.a
 s=1
 break
